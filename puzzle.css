@@ -1,33 +1,37 @@
+body {
+    background-color: #00BFF3;
+}
+
 body, button {
-	font-family: cursive;
-	font-size: 14pt;
-	text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 14pt;
+    text-align: center;
 }
 
 #puzzlearea {
-	font-size: 40pt;
-	width: 400px;
-	height: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+    font-size: 40pt;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .puzzlepiece {
-	border: 5px solid black;
-	width: 90px;
-	height: 90px;
-	position: absolute;
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    position: absolute;
 }
 
 .movablepiece:hover {
-	border-color: red;
-	color: red;
+    border-color: red;
+    color: red;
 }
 
 #throbber {
-	visibility: hidden;
-	height: 30px;
-	width: 30px;
-	vertical-align: middle;
+    visibility: hidden;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
 }
